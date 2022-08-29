@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter.ttf);
+}
+@font-face {
+  font-family: "Varela";
+  src: url(../../fonts/Varela.ttf);
+}
+@font-face {
+  font-family: "Varela Round";
+  src: url(../../fonts/VarelaRound.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #19587D;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter.ttf);
+}
+@font-face {
+  font-family: "Varela";
+  src: url(../../fonts/Varela.ttf);
+}
+@font-face {
+  font-family: "Varela Round";
+  src: url(../../fonts/VarelaRound.ttf);
+}
+#hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  font-family: "Varela Round";
+  font-weight: 300;
+}
+#hero .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hero .profile .picture {
+  margin: 15px auto;
+  border: 5px solid #C5342A;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#hero .profile .picture:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px 0 0 20px #B11313);
+}
+#hero .profile .bio {
+  display: block;
+  text-align: justify;
+}
+#hero .profile .bio p {
+  font-size: 18px;
+}
+#hero .profile .bio p .fa-solid {
+  color: #D37A2C;
+}
+#hero .description {
+  font-size: 20px;
+}
+#hero .description .name,
+#hero .description .role,
+#hero .description .contact,
+#hero .description .file {
+  margin: 15px 0;
+}
+#hero .description .name {
+  font-size: 40px;
+}
+#hero .description .contact span {
+  line-height: 15px;
+}
+#hero .description .contact span .fa-envelope {
+  color: #C5342A;
+  cursor: pointer;
+}
+#hero .description .contact span .fa-whatsapp {
+  color: #61BC48;
+  cursor: pointer;
+}
+#hero .description .contact span a:hover,
+#hero .description .contact span .fa-solid:hover,
+#hero .description .contact span .fa-brands:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
+}
+#hero .description .file {
+  border-radius: 10px;
+  background: #C5342A;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+}
+#hero .description .file .fa-file {
+  cursor: pointer;
+}
+#hero .description .file a:hover,
+#hero .description .file .fa-file:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
+}
+
+.bars {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  height: 60vh;
+}
+.bars .bar {
+  position: absolute;
+  border-right: 4px solid #FFFFFF;
+}
+.bars .one {
+  height: 100%;
+}
+.bars .two {
+  height: 75%;
+  right: 0;
+}
+.bars .social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 75%;
+  left: 10px;
+}
+.bars .social .fa-brands {
+  margin-top: 10px;
+  font-size: 35px;
+}
+.bars .social .fa-brands:hover {
+  transform: scale(1.2);
+  filter: brightness(0.5);
+}/*# sourceMappingURL=styles.css.map */

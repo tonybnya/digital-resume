@@ -1,0 +1,83 @@
+@import '../base/colors';
+@import '../base/typo';
+
+@mixin onHover($clr) {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px $clr);
+}
+
+#hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  font-family: 'Varela Round';
+  font-weight: 300;
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .picture {
+      margin: 15px auto;
+      border: 5px solid $color-email;
+      border-radius: 50%;
+      cursor: pointer;
+      &:hover {
+        @include onHover(0 0 20px $color-red);
+      }
+    }
+    .bio {
+      display: block;
+      text-align: justify;
+      p {
+        font-size: 18px;
+        .fa-solid {
+          color: $color-yellow;   }
+      }
+    }
+  }
+  .description {
+    font-size: 20px;
+    .name,
+    .role,
+    .contact,
+    .file {
+      margin: 15px 0;
+    }
+    .name {
+      font-size: 40px;
+    }
+    .contact {
+      span {
+        line-height: 15px;
+        .fa-envelope {
+          color: $color-email;
+          cursor: pointer;
+        }
+        .fa-whatsapp {
+          color: $color-whatsapp;
+          cursor: pointer;
+        }
+        a:hover,
+        .fa-solid:hover,
+        .fa-brands:hover {
+          @include onHover($color-white);
+        }
+      }
+    }
+    .file {
+      border-radius: 10px;
+      background: $color-email;
+      padding: 10px;
+      width: 70%;
+      text-align: center;
+      .fa-file {
+        cursor: pointer;
+      }
+      a:hover,
+      .fa-file:hover {
+        @include onHover($color-white);
+      }
+    }
+  }
+}
