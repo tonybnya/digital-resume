@@ -26,6 +26,11 @@ body {
   margin: 0 auto;
 }
 
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
 a {
   text-decoration: none;
   color: #FFFFFF;
@@ -58,13 +63,13 @@ a {
 }
 #hero .profile .picture {
   margin: 15px auto;
-  border: 5px solid #C5342A;
+  border: 5px solid #D37A2C;
   border-radius: 50%;
   cursor: pointer;
 }
 #hero .profile .picture:hover {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 20px 0 0 20px #B11313);
+  filter: drop-shadow(0 0 20px 0 0 20px #FFFFFF);
 }
 #hero .profile .bio {
   display: block;
@@ -85,8 +90,20 @@ a {
 #hero .description .file {
   margin: 15px 0;
 }
+#hero .description .role a {
+  color: #3FA7FB;
+}
+#hero .description .role a:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
+}
 #hero .description .name {
   font-size: 40px;
+  cursor: pointer;
+}
+#hero .description .name:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
 }
 #hero .description .contact span {
   line-height: 15px;
@@ -107,7 +124,7 @@ a {
 }
 #hero .description .file {
   border-radius: 10px;
-  background: #C5342A;
+  background: #D37A2C;
   padding: 10px;
   width: 70%;
   text-align: center;
@@ -129,7 +146,7 @@ a {
 }
 .bars .bar {
   position: absolute;
-  border-right: 4px solid #FFFFFF;
+  border-right: 3px solid #FFFFFF;
 }
 .bars .one {
   height: 100%;
@@ -153,4 +170,144 @@ a {
 .bars .social .fa-brands:hover {
   transform: scale(1.2);
   filter: brightness(0.5);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter.ttf);
+}
+@font-face {
+  font-family: "Varela";
+  src: url(../../fonts/Varela.ttf);
+}
+@font-face {
+  font-family: "Varela Round";
+  src: url(../../fonts/VarelaRound.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #19587D;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter.ttf);
+}
+@font-face {
+  font-family: "Varela";
+  src: url(../../fonts/Varela.ttf);
+}
+@font-face {
+  font-family: "Varela Round";
+  src: url(../../fonts/VarelaRound.ttf);
+}
+#skills,
+#tech-stack,
+#education,
+#projects {
+  margin-top: 100px;
+  font-family: "Varela Round";
+}
+#skills img:hover,
+#tech-stack img:hover,
+#education img:hover,
+#projects img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
+}
+
+#skills .content,
+#tech-stack .content {
+  display: flex;
+  flex-direction: column;
+}
+#skills .content .title,
+#tech-stack .content .title {
+  display: flex;
+  align-items: center;
+}
+#skills .content .title .icon,
+#tech-stack .content .title .icon {
+  width: 4%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+#skills .content .title h1,
+#tech-stack .content .title h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #D37A2C;
+  font-family: "Varela";
+  cursor: pointer;
+}
+#skills .content .title h1:hover,
+#tech-stack .content .title h1:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
+}
+#skills .content .items,
+#tech-stack .content .items {
+  margin-top: 20px;
+  padding-left: 50px;
+}
+#skills .content .items .item,
+#tech-stack .content .items .item {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+#skills .content .items .item .fa-solid,
+#tech-stack .content .items .item .fa-solid {
+  margin-right: 10px;
+  color: #D37A2C;
+  font-size: 30px;
+}
+#skills .content .items .item h4,
+#tech-stack .content .items .item h4 {
+  font-size: 20px;
+}
+
+#tech-stack .content .items .domain {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#tech-stack .content .items .domain .icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+#tech-stack .content .items .domain .tech {
+  font-size: 20px;
+  border: 2px solid #D37A2C;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#tech-stack .content .items .domain .tech:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #FFFFFF);
 }/*# sourceMappingURL=styles.css.map */

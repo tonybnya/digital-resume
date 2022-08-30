@@ -19,11 +19,11 @@
     align-items: center;
     .picture {
       margin: 15px auto;
-      border: 5px solid $color-email;
+      border: 5px solid $color-yellow;
       border-radius: 50%;
       cursor: pointer;
       &:hover {
-        @include onHover(0 0 20px $color-red);
+        @include onHover(0 0 20px $color-white);
       }
     }
     .bio {
@@ -32,7 +32,8 @@
       p {
         font-size: 18px;
         .fa-solid {
-          color: $color-yellow;   }
+          color: $color-yellow;
+        }
       }
     }
   }
@@ -44,8 +45,20 @@
     .file {
       margin: 15px 0;
     }
+    .role {
+      a {
+        color: $color-blue-2;
+        &:hover {
+          @include onHover($color-white);
+        }
+      }
+    }
     .name {
       font-size: 40px;
+      cursor: pointer;
+      &:hover {
+        @include onHover($color-white);
+      }
     }
     .contact {
       span {
@@ -67,7 +80,7 @@
     }
     .file {
       border-radius: 10px;
-      background: $color-email;
+      background: $color-yellow;
       padding: 10px;
       width: 70%;
       text-align: center;
