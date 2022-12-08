@@ -12,3 +12,21 @@
   font-family: 'Varela Round';
   src: url(../../fonts/VarelaRound.ttf);
 }
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('../../fonts/Mona-Sans.ttf') format('woff2 supports variations'),
+    url('../../fonts/Mona-Sans.ttf') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+@font-face {
+  font-family: 'Hubot Sans';
+  src:
+    url('../../fonts/Hubot-Sans.ttf') format('woff2 supports variations'),
+    url('../../fonts/Hubot-Sans.ttf') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}

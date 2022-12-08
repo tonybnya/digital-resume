@@ -67,6 +67,10 @@
           color: $color-email;
           cursor: pointer;
         }
+        .fa-phone {
+          color: $color-black-1;
+          cursor: pointer;
+        }
         .fa-whatsapp {
           color: $color-whatsapp;
           cursor: pointer;
@@ -78,7 +82,7 @@
         }
       }
     }
-    .file {
+    .cta {
       border-radius: 10px;
       background: $color-yellow;
       padding: 10px;
@@ -86,6 +90,9 @@
       text-align: center;
       .fa-file {
         cursor: pointer;
+      }
+      a {
+        font-size: 18px;
       }
       a:hover,
       .fa-file:hover {

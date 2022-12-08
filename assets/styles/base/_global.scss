@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  font-family: 'Varela';
+}
+
 body {
   background: $color-blue-1;
   color: $color-white;
