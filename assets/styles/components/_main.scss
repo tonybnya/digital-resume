@@ -12,7 +12,8 @@
 #education,
 #projects {
   margin-top: 100px;
-  font-family: 'Varela Round';
+  font-family: 'Geometria';
+  font-size: medium;
   img:hover {
     @include onHover($color-white);
   }
@@ -35,7 +36,7 @@
         font-size: 40px;
         text-transform: uppercase;
         color: $color-yellow;
-        font-family: 'Varela';
+        font-family: 'Geometria';
         cursor: pointer;
         &:hover {
           @include onHover($color-white);
@@ -51,7 +52,7 @@
         align-items: center;
         .fa-solid {
           margin-right: 10px;
-          color: $color-yellow;
+          color: $color-gold;
           font-size: 30px;
         }
         h4 {
@@ -77,7 +78,7 @@
         font-size: 40px;
         text-transform: uppercase;
         color: $color-yellow;
-        font-family: 'Varela';
+        font-family: 'Geometria';
         cursor: pointer;
         &:hover {
           @include onHover($color-white);
@@ -106,7 +107,7 @@
         }
         .tech {
           font-size: 20px;
-          border: 2px solid $color-yellow;
+          border: 2px solid $color-gold;
           border-radius: 5px;
           width: 120px;
           text-align: center;

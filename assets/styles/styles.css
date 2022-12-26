@@ -1,26 +1,27 @@
 @font-face {
-  font-family: "Inter";
-  src: url(../../fonts/Inter.ttf);
+  font-family: "Geometria";
+  src: url("fonts/Geometria.eot");
+  src: url("fonts/Geometria.eot") format("embedded-opentype"), url("fonts/Geometria.woff2") format("woff2"), url("fonts/Geometria.woff") format("woff"), url("fonts/Geometria.ttf") format("truetype"), url("fonts/Geometria.svg#Geometria") format("svg");
+}
+@font-face {
+  font-family: "Heebo";
+  src: url("fonts/HeeboVariableFont_wght.eot");
+  src: url("fonts/HeeboVariableFont_wght.eot") format("embedded-opentype"), url("fonts/HeeboVariableFont_wght.woff2") format("woff2"), url("fonts/HeeboVariableFont_wght.woff") format("woff"), url("fonts/HeeboVariableFont_wght.ttf") format("truetype"), url("fonts/HeeboVariableFont_wght.svg#HeeboVariableFont_wght") format("svg");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/NunitoRegular.eot");
+  src: url("fonts/NunitoRegular.eot") format("embedded-opentype"), url("fonts/NunitoRegular.woff2") format("woff2"), url("fonts/NunitoRegular.woff") format("woff"), url("fonts/NunitoRegular.ttf") format("truetype"), url("fonts/NunitoRegular.svg#NunitoRegular") format("svg");
 }
 @font-face {
   font-family: "Varela";
-  src: url(../../fonts/Varela.ttf);
+  src: url("fonts/Varela.eot");
+  src: url("fonts/Varela.eot") format("embedded-opentype"), url("fonts/Varela.woff2") format("woff2"), url("fonts/Varela.woff") format("woff"), url("fonts/Varela.ttf") format("truetype"), url("fonts/Varela.svg#Varela") format("svg");
 }
 @font-face {
-  font-family: "Varela Round";
-  src: url(../../fonts/VarelaRound.ttf);
-}
-@font-face {
-  font-family: "Mona Sans";
-  src: url("../../fonts/Mona-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Mona-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
-@font-face {
-  font-family: "Hubot Sans";
-  src: url("../../fonts/Hubot-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Hubot-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  font-family: "VarelaRound";
+  src: url("fonts/VarelaRound.eot");
+  src: url("fonts/VarelaRound.eot") format("embedded-opentype"), url("fonts/VarelaRound.woff2") format("woff2"), url("fonts/VarelaRound.woff") format("woff"), url("fonts/VarelaRound.ttf") format("truetype"), url("fonts/VarelaRound.svg#VarelaRound") format("svg");
 }
 * {
   margin: 0;
@@ -34,8 +35,9 @@ html {
 }
 
 body {
-  background: #19587D;
+  background: #000000;
   color: #FFFFFF;
+  font-family: "Geometria";
 }
 
 .container {
@@ -54,36 +56,38 @@ a {
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url(../../fonts/Inter.ttf);
+  font-family: "Geometria";
+  src: url("fonts/Geometria.eot");
+  src: url("fonts/Geometria.eot") format("embedded-opentype"), url("fonts/Geometria.woff2") format("woff2"), url("fonts/Geometria.woff") format("woff"), url("fonts/Geometria.ttf") format("truetype"), url("fonts/Geometria.svg#Geometria") format("svg");
+}
+@font-face {
+  font-family: "Heebo";
+  src: url("fonts/HeeboVariableFont_wght.eot");
+  src: url("fonts/HeeboVariableFont_wght.eot") format("embedded-opentype"), url("fonts/HeeboVariableFont_wght.woff2") format("woff2"), url("fonts/HeeboVariableFont_wght.woff") format("woff"), url("fonts/HeeboVariableFont_wght.ttf") format("truetype"), url("fonts/HeeboVariableFont_wght.svg#HeeboVariableFont_wght") format("svg");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/NunitoRegular.eot");
+  src: url("fonts/NunitoRegular.eot") format("embedded-opentype"), url("fonts/NunitoRegular.woff2") format("woff2"), url("fonts/NunitoRegular.woff") format("woff"), url("fonts/NunitoRegular.ttf") format("truetype"), url("fonts/NunitoRegular.svg#NunitoRegular") format("svg");
 }
 @font-face {
   font-family: "Varela";
-  src: url(../../fonts/Varela.ttf);
+  src: url("fonts/Varela.eot");
+  src: url("fonts/Varela.eot") format("embedded-opentype"), url("fonts/Varela.woff2") format("woff2"), url("fonts/Varela.woff") format("woff"), url("fonts/Varela.ttf") format("truetype"), url("fonts/Varela.svg#Varela") format("svg");
 }
 @font-face {
-  font-family: "Varela Round";
-  src: url(../../fonts/VarelaRound.ttf);
-}
-@font-face {
-  font-family: "Mona Sans";
-  src: url("../../fonts/Mona-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Mona-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
-@font-face {
-  font-family: "Hubot Sans";
-  src: url("../../fonts/Hubot-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Hubot-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  font-family: "VarelaRound";
+  src: url("fonts/VarelaRound.eot");
+  src: url("fonts/VarelaRound.eot") format("embedded-opentype"), url("fonts/VarelaRound.woff2") format("woff2"), url("fonts/VarelaRound.woff") format("woff"), url("fonts/VarelaRound.ttf") format("truetype"), url("fonts/VarelaRound.svg#VarelaRound") format("svg");
 }
 #hero {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-  font-family: "Varela Round";
+  font-family: "Geometria";
   font-weight: 300;
+  font-size: medium;
 }
 #hero .profile {
   display: flex;
@@ -92,7 +96,7 @@ a {
 }
 #hero .profile .picture {
   margin: 15px auto;
-  border: 5px solid #D37A2C;
+  border: 5px solid #B11313;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -108,7 +112,7 @@ a {
   font-size: 18px;
 }
 #hero .profile .bio p .fa-solid {
-  color: #D37A2C;
+  color: #B8A17A;
 }
 #hero .description {
   font-size: 20px;
@@ -135,14 +139,14 @@ a {
   filter: drop-shadow(0 0 20px #FFFFFF);
 }
 #hero .description .contact span {
-  line-height: 15px;
+  margin: 10px;
 }
 #hero .description .contact span .fa-envelope {
   color: #C5342A;
   cursor: pointer;
 }
 #hero .description .contact span .fa-phone {
-  color: #000000;
+  color: #D37A2C;
   cursor: pointer;
 }
 #hero .description .contact span .fa-whatsapp {
@@ -157,7 +161,7 @@ a {
 }
 #hero .description .cta {
   border-radius: 10px;
-  background: #D37A2C;
+  background: #258FFB;
   padding: 10px;
   width: 70%;
   text-align: center;
@@ -173,6 +177,18 @@ a {
   transform: scale(1.1);
   filter: drop-shadow(0 0 20px #FFFFFF);
 }
+#hero .description .cta i {
+  color: #B11313;
+}
+#hero .description .cta:hover {
+  background: #B11313;
+}
+#hero .description .cta:hover a {
+  color: #000000;
+}
+#hero .description .cta:hover i {
+  color: #FFFFFF;
+}
 
 .bars {
   position: fixed;
@@ -182,7 +198,7 @@ a {
 }
 .bars .bar {
   position: absolute;
-  border-right: 3px solid #FFFFFF;
+  border-right: 3px solid #D37A2C;
 }
 .bars .one {
   height: 100%;
@@ -209,28 +225,29 @@ a {
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url(../../fonts/Inter.ttf);
+  font-family: "Geometria";
+  src: url("fonts/Geometria.eot");
+  src: url("fonts/Geometria.eot") format("embedded-opentype"), url("fonts/Geometria.woff2") format("woff2"), url("fonts/Geometria.woff") format("woff"), url("fonts/Geometria.ttf") format("truetype"), url("fonts/Geometria.svg#Geometria") format("svg");
+}
+@font-face {
+  font-family: "Heebo";
+  src: url("fonts/HeeboVariableFont_wght.eot");
+  src: url("fonts/HeeboVariableFont_wght.eot") format("embedded-opentype"), url("fonts/HeeboVariableFont_wght.woff2") format("woff2"), url("fonts/HeeboVariableFont_wght.woff") format("woff"), url("fonts/HeeboVariableFont_wght.ttf") format("truetype"), url("fonts/HeeboVariableFont_wght.svg#HeeboVariableFont_wght") format("svg");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/NunitoRegular.eot");
+  src: url("fonts/NunitoRegular.eot") format("embedded-opentype"), url("fonts/NunitoRegular.woff2") format("woff2"), url("fonts/NunitoRegular.woff") format("woff"), url("fonts/NunitoRegular.ttf") format("truetype"), url("fonts/NunitoRegular.svg#NunitoRegular") format("svg");
 }
 @font-face {
   font-family: "Varela";
-  src: url(../../fonts/Varela.ttf);
+  src: url("fonts/Varela.eot");
+  src: url("fonts/Varela.eot") format("embedded-opentype"), url("fonts/Varela.woff2") format("woff2"), url("fonts/Varela.woff") format("woff"), url("fonts/Varela.ttf") format("truetype"), url("fonts/Varela.svg#Varela") format("svg");
 }
 @font-face {
-  font-family: "Varela Round";
-  src: url(../../fonts/VarelaRound.ttf);
-}
-@font-face {
-  font-family: "Mona Sans";
-  src: url("../../fonts/Mona-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Mona-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
-@font-face {
-  font-family: "Hubot Sans";
-  src: url("../../fonts/Hubot-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Hubot-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  font-family: "VarelaRound";
+  src: url("fonts/VarelaRound.eot");
+  src: url("fonts/VarelaRound.eot") format("embedded-opentype"), url("fonts/VarelaRound.woff2") format("woff2"), url("fonts/VarelaRound.woff") format("woff"), url("fonts/VarelaRound.ttf") format("truetype"), url("fonts/VarelaRound.svg#VarelaRound") format("svg");
 }
 * {
   margin: 0;
@@ -244,8 +261,9 @@ html {
 }
 
 body {
-  background: #19587D;
+  background: #000000;
   color: #FFFFFF;
+  font-family: "Geometria";
 }
 
 .container {
@@ -264,35 +282,37 @@ a {
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url(../../fonts/Inter.ttf);
+  font-family: "Geometria";
+  src: url("fonts/Geometria.eot");
+  src: url("fonts/Geometria.eot") format("embedded-opentype"), url("fonts/Geometria.woff2") format("woff2"), url("fonts/Geometria.woff") format("woff"), url("fonts/Geometria.ttf") format("truetype"), url("fonts/Geometria.svg#Geometria") format("svg");
+}
+@font-face {
+  font-family: "Heebo";
+  src: url("fonts/HeeboVariableFont_wght.eot");
+  src: url("fonts/HeeboVariableFont_wght.eot") format("embedded-opentype"), url("fonts/HeeboVariableFont_wght.woff2") format("woff2"), url("fonts/HeeboVariableFont_wght.woff") format("woff"), url("fonts/HeeboVariableFont_wght.ttf") format("truetype"), url("fonts/HeeboVariableFont_wght.svg#HeeboVariableFont_wght") format("svg");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/NunitoRegular.eot");
+  src: url("fonts/NunitoRegular.eot") format("embedded-opentype"), url("fonts/NunitoRegular.woff2") format("woff2"), url("fonts/NunitoRegular.woff") format("woff"), url("fonts/NunitoRegular.ttf") format("truetype"), url("fonts/NunitoRegular.svg#NunitoRegular") format("svg");
 }
 @font-face {
   font-family: "Varela";
-  src: url(../../fonts/Varela.ttf);
+  src: url("fonts/Varela.eot");
+  src: url("fonts/Varela.eot") format("embedded-opentype"), url("fonts/Varela.woff2") format("woff2"), url("fonts/Varela.woff") format("woff"), url("fonts/Varela.ttf") format("truetype"), url("fonts/Varela.svg#Varela") format("svg");
 }
 @font-face {
-  font-family: "Varela Round";
-  src: url(../../fonts/VarelaRound.ttf);
-}
-@font-face {
-  font-family: "Mona Sans";
-  src: url("../../fonts/Mona-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Mona-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
-@font-face {
-  font-family: "Hubot Sans";
-  src: url("../../fonts/Hubot-Sans.ttf") format("woff2 supports variations"), url("../../fonts/Hubot-Sans.ttf") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  font-family: "VarelaRound";
+  src: url("fonts/VarelaRound.eot");
+  src: url("fonts/VarelaRound.eot") format("embedded-opentype"), url("fonts/VarelaRound.woff2") format("woff2"), url("fonts/VarelaRound.woff") format("woff"), url("fonts/VarelaRound.ttf") format("truetype"), url("fonts/VarelaRound.svg#VarelaRound") format("svg");
 }
 #skills,
 #tech-stack,
 #education,
 #projects {
   margin-top: 100px;
-  font-family: "Varela Round";
+  font-family: "Geometria";
+  font-size: medium;
 }
 #skills img:hover,
 #tech-stack img:hover,
@@ -323,7 +343,7 @@ a {
   font-size: 40px;
   text-transform: uppercase;
   color: #D37A2C;
-  font-family: "Varela";
+  font-family: "Geometria";
   cursor: pointer;
 }
 #skills .content .title h1:hover,
@@ -345,7 +365,7 @@ a {
 #skills .content .items .item .fa-solid,
 #tech-stack .content .items .item .fa-solid {
   margin-right: 10px;
-  color: #D37A2C;
+  color: #B8A17A;
   font-size: 30px;
 }
 #skills .content .items .item h4,
@@ -369,7 +389,7 @@ a {
   font-size: 40px;
   text-transform: uppercase;
   color: #D37A2C;
-  font-family: "Varela";
+  font-family: "Geometria";
   cursor: pointer;
 }
 #projects .content .title h1:hover,
@@ -393,7 +413,7 @@ a {
 }
 #tech-stack .content .items .domain .tech {
   font-size: 20px;
-  border: 2px solid #D37A2C;
+  border: 2px solid #B8A17A;
   border-radius: 5px;
   width: 120px;
   text-align: center;
@@ -407,9 +427,13 @@ a {
 }
 
 footer {
-  background-color: #222;
+  background-color: #3D4B57;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: "Geometria";
+}
+footer a {
+  color: #B8A17A;
 }
 footer .content {
   margin: 40px auto;

@@ -1,32 +1,48 @@
 @font-face {
-  font-family: 'Inter';
-  src: url(../../fonts/Inter.ttf);
+  font-family: 'Geometria';
+  src: url('fonts/Geometria.eot');
+  src: url('fonts/Geometria.eot') format('embedded-opentype'),
+       url('fonts/Geometria.woff2') format('woff2'),
+       url('fonts/Geometria.woff') format('woff'),
+       url('fonts/Geometria.ttf') format('truetype'),
+       url('fonts/Geometria.svg#Geometria') format('svg');
+}
+@font-face {
+  font-family: 'Heebo';
+  src: url('fonts/HeeboVariableFont_wght.eot');
+  src: url('fonts/HeeboVariableFont_wght.eot') format('embedded-opentype'),
+       url('fonts/HeeboVariableFont_wght.woff2') format('woff2'),
+       url('fonts/HeeboVariableFont_wght.woff') format('woff'),
+       url('fonts/HeeboVariableFont_wght.ttf') format('truetype'),
+       url('fonts/HeeboVariableFont_wght.svg#HeeboVariableFont_wght') format('svg');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/NunitoRegular.eot');
+  src: url('fonts/NunitoRegular.eot') format('embedded-opentype'),
+       url('fonts/NunitoRegular.woff2') format('woff2'),
+       url('fonts/NunitoRegular.woff') format('woff'),
+       url('fonts/NunitoRegular.ttf') format('truetype'),
+       url('fonts/NunitoRegular.svg#NunitoRegular') format('svg');
 }
 
 @font-face {
   font-family: 'Varela';
-  src: url(../../fonts/Varela.ttf);
+  src: url('fonts/Varela.eot');
+  src: url('fonts/Varela.eot') format('embedded-opentype'),
+       url('fonts/Varela.woff2') format('woff2'),
+       url('fonts/Varela.woff') format('woff'),
+       url('fonts/Varela.ttf') format('truetype'),
+       url('fonts/Varela.svg#Varela') format('svg');
 }
 
 @font-face {
-  font-family: 'Varela Round';
-  src: url(../../fonts/VarelaRound.ttf);
-}
-
-@font-face {
-  font-family: 'Mona Sans';
-  src:
-    url('../../fonts/Mona-Sans.ttf') format('woff2 supports variations'),
-    url('../../fonts/Mona-Sans.ttf') format('woff2-variations');
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
-
-@font-face {
-  font-family: 'Hubot Sans';
-  src:
-    url('../../fonts/Hubot-Sans.ttf') format('woff2 supports variations'),
-    url('../../fonts/Hubot-Sans.ttf') format('woff2-variations');
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
+  font-family: 'VarelaRound';
+  src: url('fonts/VarelaRound.eot');
+  src: url('fonts/VarelaRound.eot') format('embedded-opentype'),
+       url('fonts/VarelaRound.woff2') format('woff2'),
+       url('fonts/VarelaRound.woff') format('woff'),
+       url('fonts/VarelaRound.ttf') format('truetype'),
+       url('fonts/VarelaRound.svg#VarelaRound') format('svg');
 }

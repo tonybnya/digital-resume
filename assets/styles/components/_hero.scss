@@ -11,15 +11,16 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-  font-family: 'Varela Round';
+  font-family: 'Geometria';
   font-weight: 300;
+  font-size: medium;
   .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
     .picture {
       margin: 15px auto;
-      border: 5px solid $color-yellow;
+      border: 5px solid $color-red;
       border-radius: 50%;
       cursor: pointer;
       &:hover {
@@ -32,7 +33,7 @@
       p {
         font-size: 18px;
         .fa-solid {
-          color: $color-yellow;
+          color: $color-gold;
         }
       }
     }
@@ -62,13 +63,13 @@
     }
     .contact {
       span {
-        line-height: 15px;
+        margin: 10px;
         .fa-envelope {
           color: $color-email;
           cursor: pointer;
         }
         .fa-phone {
-          color: $color-black-1;
+          color: $color-yellow;
           cursor: pointer;
         }
         .fa-whatsapp {
@@ -84,7 +85,7 @@
     }
     .cta {
       border-radius: 10px;
-      background: $color-yellow;
+      background: $color-blue-4;
       padding: 10px;
       width: 70%;
       text-align: center;
@@ -97,6 +98,18 @@
       a:hover,
       .fa-file:hover {
         @include onHover($color-white);
+      }
+      i {
+        color: $color-red;
+      }
+      &:hover {
+        background: $color-red;
+        a {
+          color: $color-black-1;
+        }
+        i {
+          color: $color-white;
+        }
       }
     }
   }
