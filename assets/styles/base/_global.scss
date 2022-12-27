@@ -19,6 +19,12 @@ body {
   font-family: 'Geometria';
 }
 
+@media all and (max-width: 1024px) {
+  body {
+    width: auto;
+  }
+}
+
 .container {
   width: 60%;
   margin: 0 auto;

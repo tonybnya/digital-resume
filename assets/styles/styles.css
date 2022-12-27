@@ -41,6 +41,11 @@ body {
   font-family: "Geometria";
 }
 
+@media all and (max-width: 1024px) {
+  body {
+    width: auto;
+  }
+}
 .container {
   width: 60%;
   margin: 0 auto;
@@ -207,7 +212,7 @@ a {
 }
 .bars .bar {
   position: absolute;
-  border-right: 3px solid #D37A2C;
+  border-right: 3px solid #FFFFFF;
 }
 .bars .one {
   height: 100%;
@@ -276,6 +281,11 @@ body {
   font-family: "Geometria";
 }
 
+@media all and (max-width: 1024px) {
+  body {
+    width: auto;
+  }
+}
 .container {
   width: 60%;
   margin: 0 auto;
