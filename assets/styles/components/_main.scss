@@ -58,6 +58,9 @@
         h4 {
           font-size: 20px;
         }
+        a {
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -88,17 +91,12 @@
   }
 }
 
-// #projects{}
-
-#education{
-  margin-bottom: 100px
-}
-
 #tech-stack {
   .content {
     .items {
       .domain {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         margin-bottom: 10px;
         .icon {
@@ -121,4 +119,10 @@
       }
     }
   }
+}
+
+// #projects{}
+
+#education{
+  margin-bottom: 100px
 }

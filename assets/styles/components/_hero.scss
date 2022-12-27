@@ -85,10 +85,12 @@
     }
     .cta {
       border-radius: 10px;
-      background: $color-blue-4;
+      // background: $color-blue-4;
       padding: 10px;
       width: 70%;
       text-align: center;
+      box-shadow: 3px 3px 3px $color-white;
+      border: 2px solid $color-white;
       .fa-file {
         cursor: pointer;
       }
