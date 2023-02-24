@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap');
+
 /* Reset Styles */
 * {
     margin: 0;
@@ -7,7 +9,7 @@
 
 /* Global Styles */
 html, body {
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans', 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
     font-style: 14px;
     width: 100%;
 }
@@ -28,16 +30,24 @@ h3 {
 /* Header Styles */
 header {
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header img {
-    max-width: 100%;
+    max-width: 10%;
+}
+
+header .cta {
+    display: flex;
+    align-items: center;
 }
 
 /* Navbar Styles */
 nav {
-    background-color: #039be5;
+    background-color: #000;
     width: 100%;
 }
 nav ul {
@@ -53,8 +63,8 @@ nav a {
     display: block;
 }
 nav a:hover {
-    background-color: #29b6f6;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 /* Main Section Styles */
@@ -74,14 +84,6 @@ section {
     float: left;
     margin-right: 3%;
 }
-section img {
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border: 1px solid #ddd;
-    float: left;
-    margin: 10px;
-}
 article {
     border: 1px solid #ddd;
     padding: 20px;
@@ -99,8 +101,8 @@ aside ul {
 aside a {
     padding: 10px;
     display: block;
-    background-color: #f1f1f1;
-    color: #333;
+    background-color: #000;
+    color: #fff;
     margin-bottom: 3px;
 }
 aside a:hover {
@@ -111,7 +113,8 @@ aside a:hover {
 footer {
     width: 90%;
     margin: 0 auto;
-    background-color: #f3f3f3;
+    background-color: #000;
+    color: #fff;
     padding: 20px;
     margin-bottom: 20px;
 }
