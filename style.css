@@ -89,11 +89,17 @@ article {
     padding: 20px;
     margin-bottom: 20px;
 }
+article h2 {
+    margin-bottom: 20px;
+}
 aside {
     border: 1px solid #ddd;
     padding: 20px;
     width: 25%;
     float: left;
+}
+aside h2 {
+    margin-left: 20px;
 }
 aside ul {
     padding: 20px;
