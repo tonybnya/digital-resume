@@ -60,7 +60,7 @@ header .cta .icon-mode {
   touch-action: manipulation;
 }
 .btn:hover {
-    background-color: red;
+    background-color: #258FFB;
 }
 .btn .file {
     margin-right: 5px;
