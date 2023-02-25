@@ -171,7 +171,10 @@ footer {
 @media screen and (max-width:800px)
 {
     header {
-        text-align: center;
+        margin: 10px auto;
+    }
+    header img {
+        max-width: 20%;
     }
     section, aside {
         float: none;
