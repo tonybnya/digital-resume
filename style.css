@@ -35,14 +35,29 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 header img {
     max-width: 15%;
 }
-
 header .cta {
     display: flex;
     align-items: center;
+}
+.btn {
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.btn .file {
+    margin-right: 5px;
 }
 
 /* Navbar Styles */
@@ -86,6 +101,7 @@ section {
 }
 article {
     border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -94,6 +110,7 @@ article h2 {
 }
 aside {
     border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 20px;
     width: 25%;
     float: left;
@@ -106,6 +123,7 @@ aside .skills {
 }
 aside span {
     padding: 10px;
+    border-radius: 5px;
     display: block;
     background-color: #000;
     color: #fff;
@@ -129,6 +147,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     background-color: #000;
+    border-radius: 5px;
     color: #fff;
     padding: 20px;
     margin-bottom: 20px;
