@@ -106,7 +106,7 @@ article {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 article h2 {
     margin-bottom: 20px;
@@ -136,7 +136,7 @@ aside span {
     margin-bottom: 20px;
 }
 .skill .w3-tag {
-    background-color: #d1d1d1;
+    background-color: #727272;
     padding: 5px;
     border-radius: 5px;
     color: #000;
