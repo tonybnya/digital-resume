@@ -59,6 +59,9 @@ header .cta .icon-mode {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+.btn:hover {
+    background-color: red;
+}
 .btn .file {
     margin-right: 5px;
 }
