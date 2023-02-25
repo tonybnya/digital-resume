@@ -23,23 +23,21 @@ p {
 ul {
     list-style: none;
 }
-h3 {
-    margin-bottom: 20px;
-}
 
 /* Header Styles */
 header {
     width: 90%;
     margin: 10px auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 header img {
     max-width: 15%;
 }
 .profile {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .profile-pic {
@@ -50,18 +48,22 @@ header img {
 .profile-pic:hover {
   box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
 }
-.profile .i-am {
+.i-am {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.name {
+    font-size: 25px;
+}
 header .cta {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 header .cta .icon-mode {
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 .btn {
   padding: 0.5em 1em;
