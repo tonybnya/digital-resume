@@ -42,6 +42,9 @@ header .cta {
     display: flex;
     align-items: center;
 }
+header .cta .icon-mode {
+    margin-right: 20px;
+}
 .btn {
   padding: 0.5em 1em;
   border: none;
@@ -128,9 +131,6 @@ aside span {
     background-color: #000;
     color: #fff;
     margin-bottom: 3px;
-}
-aside span:hover {
-    background-color: #d1d1d1;
 }
 .skill {
     margin-bottom: 20px;
