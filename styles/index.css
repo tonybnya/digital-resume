@@ -167,6 +167,10 @@ article {
 article h2 {
     margin-bottom: 20px;
 }
+.intro,
+.ex p {
+    font-size: 20px;
+}
 aside {
     border: 1px solid #ddd;
     border-radius: 5px;
