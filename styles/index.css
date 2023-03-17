@@ -181,10 +181,10 @@ article h2,
 aside h2 {
     font-family: 'Righteous';
 }
-.ex h4 {
+.ex .title {
     font-family: 'Prompt-Bold';
 }
-.ex h6 {
+.ex .subtitle {
     font-family: 'Prompt-Regular';
 }
 aside .skills {
