@@ -170,6 +170,7 @@ article h2 {
 .intro,
 .ex p {
     font-size: 20px;
+    text-align: justify;
 }
 aside {
     border: 1px solid #ddd;
