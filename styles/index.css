@@ -172,6 +172,12 @@ article h2 {
     font-size: 20px;
     text-align: justify;
 }
+.ex .desc {
+    margin: 10px 0;
+}
+.ex {
+    margin-bottom: 20px;
+}
 aside {
     border: 1px solid #ddd;
     border-radius: 5px;
