@@ -169,7 +169,8 @@ article h2 {
 }
 .intro,
 .ex p,
-.projects-desc {
+.projects-desc,
+#education p {
     font-size: 18px;
     text-align: justify;
 }
@@ -190,7 +191,12 @@ article h2 {
     margin: 10px 0;
 }
 .ex {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.ex ul {
+    list-style-type: square;
+    text-align: justify;
+    margin: 2%;
 }
 aside {
     border: 1px solid #ddd;
