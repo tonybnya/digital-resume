@@ -168,9 +168,23 @@ article h2 {
     margin-bottom: 20px;
 }
 .intro,
-.ex p {
+.ex p,
+.projects-desc {
     font-size: 20px;
     text-align: justify;
+}
+.projects-desc {
+    margin-bottom: 20px;
+}
+.portfolio {
+    margin-top: 10px;
+}
+.portfolio .w3-tag {
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #258FFB;
+    color: #000;
 }
 .ex .desc {
     margin: 10px 0;
