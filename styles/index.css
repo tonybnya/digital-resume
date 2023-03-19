@@ -237,6 +237,7 @@ aside span {
     padding: 5px;
     border-radius: 5px;
     color: #000;
+    width: 100%;
 }
 .item {
     font-family: 'Lexend-Bold';
